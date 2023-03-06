@@ -1,1 +1,1 @@
-# second_repository
+# 파이썬 기초_Aiffel
