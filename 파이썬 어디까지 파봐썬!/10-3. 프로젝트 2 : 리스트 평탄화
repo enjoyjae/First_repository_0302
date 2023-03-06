@@ -1,0 +1,8 @@
+def flatten(data):
+    output = []  # 빈 리스트를 만듭니다.
+    for item in data :
+        if type(item) == list:
+            output += flatten(item)
+        else:
+            output.append(item)
+    return output
